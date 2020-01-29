@@ -1,4 +1,32 @@
 a. To be sure you understand proof that square root of 2 is not rational, prove that square root of 7 is not rational. Then 
 show there are arbitrary many irrational numbers.
 
-Let <img src="http://bit.ly/2RAknG1" align="center" border="0" alt=" \surd 7" width="28" height="18" />
+Let  √7 be rational. Then  √7=p/q, where p/q is in lower terms.
+
+Then :
+
+<img src="http://latex.codecogs.com/gif.latex?p=\sqrt{7}q\Rightarrow {p^{2}=7q^{2}" border="0"/>
+
+
+This means that p is divisible by 7. Then there exists s, so that:
+
+<img src="http://latex.codecogs.com/gif.latex?p=7s\Rightarrow{p^{2}=49s^{2}\Rightarrow 49s^{2}=7q^{2}\Rightarrow 7s^{2}=q^{2}" border="0"/>
+This means that q squared is divisible by 7. Both q and p are divisible by 7, which means that  √7 is a false assumption.
+
+To show that there are arbitrary many irrational numbers we can just take the above proof and replace all 7`s with n. Voila, 
+we have infinitely many irrational numbers.
+
+b. Construct line segments corresponding to  √2,  √3,  √4,  √5 using straightedge and compass: (Hint: Use Pythagoras`s theorem).
+
+In order to construct such segment for  √2 we simply need to use straightedge to draw a right isosceles triangle with 
+two legs equal to 1. Then the hypotenuse will be equal to  √2. Then we can use compass to measure  √2 from our previous picture. Therefore, we can construct right triangle with legs equal to 1 and  √2, then the hypotenuse will be equal to  √3.
+√4 is equal to 2, so we can simply contruct it without building right triangles whatsoever. To obtain a line segment of length
+√5 we can again build a right triangle with legs  √2 and  √3, as these lengths are already in our posession from earlier
+solutions. 
+
+c. How do we represent irrational numbers in our system of decimal notations?
+
+We can both represent them as the endless decimals or as roots, that are in our case diagonals of right triagles. These are 
+usually obtaines from non-trivial relations of rational numbers, e.g. from a circle length or from a diagonal length. 
+ 
+ 
