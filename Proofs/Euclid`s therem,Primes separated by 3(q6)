@@ -1,0 +1,11 @@
+a. In his "Introduction" Goodstein sketches the a proof of Euclid`s Theorem that given any prime p we can find another prime 
+between p and p!+1. Write up that proof in mathematical notation filling in all the details.
+
+b. Prove that there is not an unlimited number of primes separated by 3: that is, show that there is some number n such that 
+there are no numbers p and p+3 greater than n that are prime. Does this mean that we have completed an endless task of checking 
+all the primes?
+
+The first prime number is 2. After that by the definition of prime numbers, all the prime number are odd.
+Then for all prime numbers after 2, we have p, that is odd. Then p+3 is a sum of two odd numbers: p and 3.
+The sum of 2 odd numbers is always even. Even is not prime. That means that the only pair of prime numbers separated by 3 is 2
+and 5. 
