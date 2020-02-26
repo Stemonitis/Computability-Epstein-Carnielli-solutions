@@ -1,6 +1,8 @@
 a. In his "Introduction" Goodstein sketches the a proof of Euclid`s Theorem that given any prime p we can find another prime 
 between p and p!+1. Write up that proof in mathematical notation filling in all the details.
 
+Described here: https://en.wikipedia.org/wiki/Euclid%27s_theorem
+
 b. Prove that there is not an unlimited number of primes separated by 3: that is, show that there is some number n such that 
 there are no numbers p and p+3 greater than n that are prime. Does this mean that we have completed an endless task of checking 
 all the primes?
