@@ -1,0 +1,11 @@
+We will prove that in every finite collection of natural numbers all of the numbers are equal, using induction in the number of
+natural numbers in the collection:
+The statement is true for any collection with just one natural number,a, for a=a.
+Now suppose it is true for any collection n of natural numbers.
+Let a1,a2,...an,an+1 be any collection of n+1 natural numbers.
+By induction hypothesis, a1=a2=a3=...=an. But also we have a2=...=an=an+1, because here, too, there are only n numbers. And so 
+a1=a2=...=an=an+1.
+What is wrong with this 'proof'?
+
+Statement a2=...=an=an+1 is not proven. "There are only n numbers is not an explanation.
+
