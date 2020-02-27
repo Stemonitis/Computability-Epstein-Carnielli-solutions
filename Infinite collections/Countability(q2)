@@ -1,0 +1,10 @@
+Show that the following are countable:
+a. The collection of all odd natural numbers.
+b. The integers.
+c. The collection of all primes.
+
+a. There exists a bijection, where: f(n)=2n+1. 
+
+b. There exists a bijection, where every odd natural numbers corresponds to positive integer and every even to negative integer.
+
+c. Prime numbers are natural numbers, therefore, they are a subset of a countable set. Than they are countable too. 
