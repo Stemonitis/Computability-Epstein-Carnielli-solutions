@@ -1,0 +1,7 @@
+Suppose that f:N-->Q+ is a 1-1 and onto. Using f exhibit g:N -->Q that is 1-1 and onto.
+
+If there exists f, that maps all natural number to the all positive natural numbers, then the same should be for all even and 
+odd natural numbers (f:Even-->Q+ and f:Odd-->Q+). Then lets consider function s(n)=-n, which is a bijection and compose it 
+f, so that s(f(Odd))-->s(Q+), s(f(Odd))-->Q-. 
+In g, lets combine the f and s(f): g:N(N=Odd+Even) is equal to g:f(Even)+s(f(Odd))=Q-+Q+=Q. Therefore, we have shown that
+g:N-->Q is a bijection.
