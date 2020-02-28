@@ -1,0 +1,7 @@
+Let A be any countable collection, which we shall call the alphabet; for example, A could be the letters of the Roman alphabet
+or it could be the rationals. Define a word to be any concatenation (finite sequence) of the objects in A, for example, abaabx 
+or 1/2 0 1/2 1/2. Show that the collection of words over A is countable.
+
+Based on the theorem that we proved about all the tuples of all natural numbers being computable (and if we assign any letter
+in the alphabet to the natural number) we can conclude that all of the words upon this alphabet are enumerable, if the alphabet
+itself is enumerable). 
