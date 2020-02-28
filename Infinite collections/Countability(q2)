@@ -7,4 +7,7 @@ a. There exists a bijection, where: f(n)=2n+1.
 
 b. There exists a bijection, where every odd natural numbers corresponds to positive integer and every even to negative integer.
 
-c. Prime numbers are natural numbers, therefore, they are a subset of a countable set. Than they are countable too. 
+c. There exists a bijection that checks every natural number and is it is true assigns it another natural number. It is 1-1,
+because prime numbers are natural numbers, so they are situated on the number line in particular order, therefore there is 
+one and only one natural number that indicates the order of the prime number. Also, every natural number has a corresponding 
+prime number as proved by Euclid. 
