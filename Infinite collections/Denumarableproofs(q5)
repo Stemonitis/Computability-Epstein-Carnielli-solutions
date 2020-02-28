@@ -1,0 +1,29 @@
+Show that following are denumerable:
+
+a. All triples of natural numbers.
+b. All n-tuples of natural numbers for a fixed n.
+c. The collection of all n-tuples of natural numbers for all n 
+(Hint: Divide N into countably many countably infinite sets by taking the nth set for n>=1 to be all those numbers divisible 
+by 2*(n-1) and no higher power of 2.)
+d. Every subset of a denumerable set (Hint:It`s immediate for finite subsets. Otherwise pick it out from an enumeration of the
+whole set.)
+
+a. All triples of natural numbers are enumerable, because it is a composition of two bijections such as:
+J(k,J(m,n)).
+
+b. All triples of natural numbers are enumerable, because it is a composition of n bijections such as:
+J(xn,J(xn-1, J(xn-2...J(x1,x2))).
+
+c. We can map a collection of all n-tuples in the following way: we have the coding function for J(x,y), which we can turn 
+into a coding function for any n-tuple, by composition it with itself as shown before. Then we can create another function that 
+will enumerate all the n-tuples by J(l,n), where the l is the number that we have from the encoding function, and the n number 
+for every n-tuple. We have shown before that the coding function is a bijection. That means that our function is also a
+bijection, as it is a combination of bijections. 
+
+d. Every subset that is finite can be enumerated by a bijection function, if not in the analytical form, then in the explicit
+form, like a table of (x,y) pairs for example.
+Every element of the subset by the definition belongs to the original set. That means it is possible to go through every element
+of a set and check if it is an element of a subset. And every time you go through the element that belongs to a subset you 
+can effectively enumerate it, as the initial subset is enumerable. This function is called inclusion mapping. 
+https://proofwiki.org/wiki/Subset_of_Countable_Set_is_Countable
+https://proofwiki.org/wiki/Definition:Inclusion_Mapping
