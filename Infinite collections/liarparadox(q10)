@@ -1,0 +1,8 @@
+Compare the proof that <img src="http://latex.codecogs.com/gif.latex?a\not{\approx} P(A)" border="0"/> with the Liar paradox
+and Russell`s set paradox.
+
+All these proofs arise from the problem of the self-reference. But while the Cantor`s antimony is self-referencing to the 
+notion of inclusivity, Liar`s paradox is self-referencing to the concept of being true or false (being a liar) and 
+Russel`s set paradox is self-referencing to the notion of belonging to the set. 
+
+
