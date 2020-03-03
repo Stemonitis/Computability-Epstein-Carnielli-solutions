@@ -1,6 +1,6 @@
 Describe adding 1 in decimal notation.
 
-Anologous to defining adding one in unary notation: the whole number sequence begins at 0, them there are 9 more symbols that
+Anologous to defining adding one in unary notation: the whole number sequence begins at 0, then there are 9 more symbols that
 we use in rigorous order. After we run out of these 10 symbols, we put the first symbol (1) in the front and repeat previous 
 step. After we run out of symbols again we change the front symbol to the next symbol in the sequence and repeat. This helps us
 to shorten the length of the number drastically comparing to the unary notation (e. g. |||||||||| and 10).
