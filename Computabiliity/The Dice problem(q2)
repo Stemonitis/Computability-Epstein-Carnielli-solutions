@@ -1,7 +1,0 @@
-Do you agree that the dice-rolling procedure of B.1 is mechanical, but not computable? How could you use Mal1cev`s criterion 
-(b) to rule it out? (Be careful not to implicitly use the notion of computability in explaining what you mean by "determined.")
-
-On one hand it may seem that the system is deterministic, as in the case of rolling dice the result will be uniquely determined
-by the conditions in the preceding moment in time (criterion (b)). But on the other hand the mechanical system may be so 
-sensitive to the initial conditions that the numbers on the rolled dice can be actually determined on the quantum level. At this
-point we could consider the system truly random and the dice rolling system mechanical, but not computable. 
