@@ -1,0 +1,8 @@
+Hermes says we can identify words 0, |,||,|||,... with the natural numbers 0,1,2,3,...in a trivial way. (Does he mean numbers
+or numerals?) Give the identification explicitly (cf. Exercise 3.1)
+
+The difference between numbers and numerals is that a number is an abstract concept that we use for counting objects while the 
+numeral is just the symbol that we use to communicate numbers. 
+
+The explicit identification is following: we can associate every number with the number of "|" and using two symbols instead of
+10. The algorithm is that for every following number we add one symbol "|".
