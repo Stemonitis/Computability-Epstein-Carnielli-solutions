@@ -1,0 +1,9 @@
+Give an algorithm for finding the largest natural number that divides two given natural numbers. Does your algorithm satisfy
+Mal`cev`s criteria?(Please, describe your algorithm in English, not "computerese".)
+
+First pick out two numbers and compare them. If the numbers are equal, then the result is one of the numbers. If not, then take
+the smaller number and divide the bigger number with it. If the bigger number is divisible by the smaller one, then the result
+is the smaller number. If it is not divisible, then substract one from the smaller number and check if the two natural numbers
+are divisible by the number preceding smaller number. If it is divisible, then the number preceding the smaller number is the 
+result. If not, keep subtstracting one from the smaller number and checking if the two numbers are divisible by that number 
+until you find the largest commom dividor. 
