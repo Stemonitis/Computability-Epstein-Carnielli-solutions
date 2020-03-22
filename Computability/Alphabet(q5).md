@@ -2,7 +2,9 @@ Consider the alphabet (,), ->,<img src="http://latex.codecogs.com/gif.latex?\mat
 a word as follows:
 
 i.(pi) is a word for i=0,1,2,...
+
 ii.If A and B are words, so too are (A->B) and (<img src="http://latex.codecogs.com/gif.latex?\mathbb{k}" border="0"/>B)
+
 iii. A string of symbols is a word if and only if it arises via application of (i) and (ii).
 
 Number all words effectively. (Hint: Consider the numbering in C).
