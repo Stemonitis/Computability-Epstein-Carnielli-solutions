@@ -13,10 +13,8 @@ This means that p squared is divisible by 7 and so is p. Then there exists s, so
 <img src="http://latex.codecogs.com/gif.latex?p=7s\Rightarrow{p^{2}=49s^{2}\Rightarrow 49s^{2}=7q^{2}\Rightarrow 7s^{2}=q^{2}" border="0"/>
 This means that q squared is divisible by 7 and so is q. Both q and p are divisible by 7, which means that  √7=p/q  is a false assumption.
 
-To show that there are arbitrary many irrational numbers we can just take the above proof and replace all 7`s with prime number n. 
-Comment: напряму таку схему можна застосувати лише до простих чисел n. Якщо n буде мати дільники, то потрібно  розписати n, p і q через їх дільники і подивитись, що там буде. До того ж n не може бути perfect square. 
-Voila, 
-we have infinitely many irrational numbers.
+To show that there are arbitrary many irrational numbers we can just take the above proof and replace all 7`s with any prime (not composite) number p. (For a composite number, which is not a perfect square, the proof will be more complicated).
+Voila, we have infinitely many irrational numbers.
 
 b. Construct line segments corresponding to  √2,  √3,  √4,  √5 using straightedge and compass: (Hint: Use Pythagoras`s theorem).
 
@@ -30,6 +28,7 @@ c. How do we represent irrational numbers in our system of decimal notations?
 
 Irrational numbers have decimal expansions that neither terminate nor end with a repeating sequence.
 
-Comment: Лише деякі іраціональні числа можуть бути представлені як корені, а саме - алгебраїчні числа. Раціональні числа є алгебраїчними числами 1-го степеня, квадратні корені - другого. A transcendental number is a complex number that is not an algebraic number—that is, not a root of a nonzero polynomial equation with integer coefficients. The best-known transcendental numbers are π and e.
+The set of irrational numbers can be partitioned into two subsets: transcendental numbers and algebraic numbers. A transcendental number is a complex number that is not an algebraic number — that is, not a root of a nonzero polynomial equation with integer coefficients. The best-known transcendental numbers are π and e. The n-th roots of an integer number belong to algebraic numbers, the set of which is countable.
+
  
  
