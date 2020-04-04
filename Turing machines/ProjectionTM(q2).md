@@ -11,25 +11,36 @@ q4 0 R q5
 
 b. For every k and j such that k>=i>=1 define a TM that calculates the projection on the ith coordinate, <img src="http://latex.codecogs.com/gif.latex?P^{i}_{k}(n_{1}, n_{2},...,n_{k})=n_{i}" border="0"/>
 
-First, we need to write i ones on the left of the string. We assume that i>0, otherwise our turing machine will halt.
-q1 1 L q1
-q1 0 L q2
-q2 0 1 q2
-q2 1 L q3
-qi 0 1 qi
-qi 1 L q(i+1)
 
-q(i+1) 0 R q(i+1)
-q(i+1) 1 R q(i+2)
+q1 1 0 q2
+q2 0 R q1
+q1 0 R q2
 
-q(i+2) 1 L q(i+3)
-q(i+3)
+q2 1 0 q3
+q3 0 R q2
+q2 0 R q3
 
+q(i-1) 1 0 qi
+qi 0 R q(i-1)
+q(i-1) 0 R qi 
+....
+We arrived at the number in the sequence that we want to keep. If it i=1 we will, obviously, start from this point. 
 
-q1 0 L q2
-q2 1 L q2
-q2 0 L q3
-qi 
+qi 1 L qi
+qi 0 L q(i+1)
 
+After leaving the projection we want to erase all the numbers till k. We repeat the same procedure.
 
+q(i+1) 1 0 q(i+2)
+q(i+2) 0 R q(i+1)
+q(i+1) 0 R q(i+2)...
 
+qk 1 0 q(k+1)
+q(k+1) 0 R qk
+qk 0 R q(k+1)...
+
+And now we have to go back to the beginning.
+
+q(k+1) 0 L q(k+1)
+q(k+1) 1 L q(k+2)
+q(k+2) 1 L q(k+2)
