@@ -1,0 +1,6 @@
+Prove that if the function is TM computable, then there are infinitely many different Turing machines that calculate it.
+
+For every code for the TM we can add infinitely many extra steps in the beginning or end to just move the machine to the right
+and back, or left and back or erase and write back 0s and 1s. This will not change the output of the function, but the TM
+will be different. As there are infinetely many times and ways we can do that, then there are infinitely many different TMs
+to calculate the same function. 
