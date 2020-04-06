@@ -1,0 +1,4 @@
+Prove that there are infinitely many distinct TM computable functions.
+
+In the exercise five we have proven that the constant function is TM computable. As there are infinitely many constants(natural
+numbers), then there are infinitely many distinct TM computable functions. 
