@@ -14,6 +14,4 @@ b. implements H on that input, and then
    if the result is a single 1 on the tape, it goes into the loop and never halts.
 What would the number of that new machine be?).
 
-This TM does not exist, because, if it existed, there would be the machine described in the hint. And this machine would never 
-be able to check if there is a blank rape, endless string of zeros, searching for the 1 forever, because it can not complete 
-an infinite task. 
+https://www.tutorialspoint.com/automata_theory/turing_machine_halting_problem.htm
