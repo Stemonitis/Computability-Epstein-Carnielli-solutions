@@ -15,3 +15,5 @@ b. implements H on that input, and then
 What would the number of that new machine be?).
 
 https://www.tutorialspoint.com/automata_theory/turing_machine_halting_problem.htm
+
+https://en.wikipedia.org/wiki/Halting_problem#Proof_concept
