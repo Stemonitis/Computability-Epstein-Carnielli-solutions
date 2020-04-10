@@ -1,0 +1,25 @@
+Give an effective numbering of all Turing machines which satisfies criteria (1), (2), (3) of Chapter 8 C. 
+
+In order to effectively number all the Turing machines we will want to use the fundamental theorem of arithmetic.
+Each state (q1,q2, qn) will correspond to one of the prime numbers.
+The instructions will be encoded in the exponential to which this prime number is raised. Exponent will be the composition 
+of 2 to the power of some number and 3 to the power of some number. 2 to the power would encode instructions in case this 
+instruction number (q1,q2,qn) is in zero`s state and 3 to the power -- in 1` state. 
+Then the instructions and the subsequent state switch will be encoded in the exponentials of 2 or 3. Writing 0 would be 1 and 
+writing 1 would be 2, moving left -- 3, moving right -- 5. And the switch of the states will be encoded in the subsequent prime
+number. 
+
+So for example we want to encode TM: 
+q1 1 0 q1
+q1 0 L q2
+q2 0 1 q2
+q2 1 1 q3.
+
+First we will encode instructions for q1. Q1 corresponds to the first prime number: 2.
+Then we have to figure out how to encode the first instruction. q1 in the 1 state will correspond to the 2^3. Then to instruct
+the machine to write 0 and switch to the q1 state we raise 3^(2*7). Analogous, for q1 0th state: 2^(1*11). So our first
+state is encoded by 2^(2^(11)*3(2*7)).
+The the instructions for q2 are 3^(2^(2*11)*3(2*13)).
+
+And the overall code for this TM is 2^(2^(11)*3(2*7))*3^(2^(2*11)*3(2*13))=. Because we are using primes as the bases of our 
+exponents, each TM will have unique decomposition and can be decoded from a single number.
