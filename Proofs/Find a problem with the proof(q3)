@@ -7,5 +7,6 @@ By induction hypothesis, a1=a2=a3=...=an. But also we have a2=...=an=an+1, becau
 a1=a2=...=an=an+1.
 What is wrong with this 'proof'?
 
-Statement a2=...=an=an+1 is not proven. "There are only n numbers is not an explanation.
+This statement is true for n = 1, A(1) - the basis of induction; it is also true for n > 2, if A(n), then A(n+1) as was proven abobe. But for n = 2  we have a degenerated chain of equalities: a1 = ... = an and a2 = ... = an+1 for n = 2 turn into a1 = a1 and a2 = a2.  From these two equalities doesn't follow that a1 = a2. So, if A(1), then is not A(2), and given proof is also false. 
+
 
