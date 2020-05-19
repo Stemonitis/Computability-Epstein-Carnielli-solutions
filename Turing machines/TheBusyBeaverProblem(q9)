@@ -1,0 +1,15 @@
+The Busy Beaver Problem
+
+This problem was proposed by T.Rado in 1962 in order to give a concrete example of a function that is not TM computable.
+
+Given a TM, define it`s productivity to be the number of 1`s in the tape if it halts in a standart configuration starting from
+a blank tape and 0 otherwise. For each n>=1 we define p(n) to be the maximal productivity of any machine with n states.
+
+a. Show that p(1)>=1.
+b. Show that p(n+11)>=2n. (Hint: See Example 3).
+c. Show that p(n+1)>p(n).
+Conclude that for all i,j, if p(i)>=p(j), then i>=j.
+d. Show that if there exists a TM P with k states that computes the function p, then p(n+2+2k)>=p[p(n)].
+(Hint: connect P twice with the machine Tn of Example 1, which writes n 1`s on a blank tape (suggestively) P[P(Tn)].)
+e. Conclude that p is not TM computable.
+(Hint: p(n+13+2k)>=p[p(n+11)]) and then apply parts (c) and (b) to get a contradiction.)
