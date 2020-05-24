@@ -6,10 +6,37 @@ Given a TM, define it`s productivity to be the number of 1`s in the tape if it h
 a blank tape and 0 otherwise. For each n>=1 we define p(n) to be the maximal productivity of any machine with n states.
 
 a. Show that p(1)>=1.
+The productivity function for the busy beaver with one state is 1 max.
+q1 0 1 q1
+In all other cases the TM will either write the endless string of 1`s or zeros or write only one zero.
+
 b. Show that p(n+11)>=2n. (Hint: See Example 3).
+From the example 2 we can see that the TM that duplicates the number of 1`s needs 11 states. That means that any TM that has
+more than 11 states can duplicate the maximum productivity of the TM that the number of states of the current TM minus 11.
+That means that p(n+11) is at least twice as p(n).
+
 c. Show that p(n+1)>p(n).
 Conclude that for all i,j, if p(i)>=p(j), then i>=j.
+If the maximum productivity of p(n) is m 1`s, then if we add one more state there will be a possibility to write at least one 
+more 1 in the string of 1`s without halting. For example:
+qn 0 1 qn ... in order for the machine to halt there must be no instructions for qn in state 1. So let`s use it:
+qn 1 L q(n+1)
+q(n+1) 0 1 q(n+1). Voila! We have shown that adding one more state gives a possibility to write at least one more 1 in the 
+string.
+For the more general case we can just add the ones in the string using the same algorithm we used to prove p(n+1)>p(n).
+
 d. Show that if there exists a TM P with k states that computes the function p, then p(n+2+2k)>=p[p(n)].
 (Hint: connect P twice with the machine Tn of Example 1, which writes n 1`s on a blank tape (suggestively) P[P(Tn)].)
+Let P be the productivity TM with states k. Then the productivity of the TM with number of states n will be P(n)=p(n). 
+Then the productivity of the P(n) will be P(P(n)). We assumed that the P(n) has k states. That means that if we apply 
+any function with k states to n, it`s productivity will be at least k+n. So, therefore p[p(n)]>=k+n. As we proved earlier,
+if k+n<n+2+2k, then p(k+n)<=p(n+2+2k) and because P(P(n)) is at least k+n, then p[p(n)]<=p(n+2+2k)
+
 e. Conclude that p is not TM computable.
 (Hint: p(n+13+2k)>=p[p(n+11)]) and then apply parts (c) and (b) to get a contradiction.)
+p(n+13+2k)>=p[p(n+11)] should be true because n+13+2k>k+n+11.
+p(n+13+2k)>=p(2n)
+k+n+13+2k>k+2n
+13+2k>=n
+n-2k<=13
+Whicn would not be true for most n
