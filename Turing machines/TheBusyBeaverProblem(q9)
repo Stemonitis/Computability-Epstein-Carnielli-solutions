@@ -29,14 +29,17 @@ d. Show that if there exists a TM P with k states that computes the function p, 
 (Hint: connect P twice with the machine Tn of Example 1, which writes n 1`s on a blank tape (suggestively) P[P(Tn)].)
 Let P be the productivity TM with states k. Then the productivity of the TM with number of states n will be P(n)=p(n). 
 Then the productivity of the P(n) will be P(P(n)). We assumed that the P(n) has k states. That means that if we apply 
-any function with k states to n, it`s productivity will be at least k+n. So, therefore p[p(n)]>=k+n. As we proved earlier,
-if k+n<n+2+2k, then p(k+n)<=p(n+2+2k) and because P(P(n)) is at least k+n, then p[p(n)]<=p(n+2+2k)
+any function with k states to n, it`s productivity will be at least n. So, therefore p[p(n)]>=n. As we proved earlier,
+if n<n+2+2k, then p(n)<=p(n+2+2k) and because P(P(n)) is at least n, then p[p(n)]<=p(n+2+2k)
 
 e. Conclude that p is not TM computable.
 (Hint: p(n+13+2k)>=p[p(n+11)]) and then apply parts (c) and (b) to get a contradiction.)
-p(n+13+2k)>=p[p(n+11)] should be true because n+13+2k>k+n+11.
-p(n+13+2k)>=p(2n)
-k+n+13+2k>k+2n
-13+2k>=n
-n-2k<=13
-Whicn would not be true for most n
+p(n+13+2k)>=p[p(n+11)]
+We have shown that that for all i,j, if p(i)>=p(j), then i>=j. Then:
+n+13+2k>=p(n+11).
+Also, we have proven earlier that  p(n+11)>=2n.
+So, then: n+13+2k>=p(n+11)>=2n. Also:
+n+13+2k>=2n
+2k+13>=n. But we know that n can go up to infinity, and k is a fixed number. That means that the productivity function that
+has k states does not exist.
+
