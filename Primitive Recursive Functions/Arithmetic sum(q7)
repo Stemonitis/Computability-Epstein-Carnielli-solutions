@@ -1,0 +1,5 @@
+Show that the function f "defined" by f(n)=0+1+...+n is primitive recursive.
+
+f(0)=Z(0)
+
+f(n+1)=S(+(f(n),n))
