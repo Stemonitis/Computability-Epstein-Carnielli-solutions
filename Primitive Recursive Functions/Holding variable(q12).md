@@ -5,7 +5,7 @@ primitive recursive. (Hint:Use C.1.)
 
 If <img src="http://latex.codecogs.com/gif.latex?\lambda{n}\lambda\vec{x}f(n,\vec{x})" border="0"/>, then for every n it is 
 primitive recursive. Than in this case to prove that f(n+1, x) we just look at the n+1 as S(n). Sucessor function is primitive
-recursive as is the composition of functions. That means that for every n our function will be primitive recursive. 
+recursive as is the composition of functions. That means that for every n can be viewed as a function. 
 
 
 b. Use part (a) and Exercise 1 to show that if f is primitive recursive, so are
