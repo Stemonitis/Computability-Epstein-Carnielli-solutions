@@ -4,4 +4,7 @@ recursive.
 These definitions are extremely useful, because it is much easier to define other primitive recursive functions, especially while programming, when you do not 
 want to enter the infinite loop. 
 Also, bounded minimization is important tool that can be used in proofs and also if we know it is primitive recursive, we can show that these proofs are in 
-fact turing machine computable and do not halt at some point, 
+fact turing machine computable and do not halt at some point.
+
+Another obvious application of the boundede minimization is that it allows to solve compose TMs that solve equations, which is a fundamental tool that can 
+explain solvability in mathematics. 
