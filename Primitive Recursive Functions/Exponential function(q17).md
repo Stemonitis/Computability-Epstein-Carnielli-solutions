@@ -24,6 +24,6 @@ Absolutely insane!!, but still primitive recursive.
 
  <img src="http://latex.codecogs.com/gif.latex?g(3)=e^{(4,434264882\times{}10^{38})^{4,434264882\times{}10^{38}}}(3)"/>
  
- I will leave the calculatio of the actual number to dearest authors of this book.
+ I will leave the calculations of the actual number to dearest authors of this book.
 
 
