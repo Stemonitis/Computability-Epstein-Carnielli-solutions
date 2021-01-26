@@ -15,7 +15,7 @@ formal
 
 Limited substraction:
 
-<img src="http://latex.codecogs.com/gif.latex?x\dot-n=\left\{\begin{matrix}x-1&if&n\leqslant{x}& \\ 0&if&n>x \end{matrix}\right."/>
+<img src="http://latex.codecogs.com/gif.latex?x\dot-n=\left\{\begin{matrix}x-n&if&n\leqslant{x}& \\ 0&if&n>x \end{matrix}\right."/>
 
 formal 
 
